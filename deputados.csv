@@ -1,599 +1,448 @@
-nome,genero
-Aguinaldo Ribeiro,M
-Glauber Braga,M
-Hermes Parcianello,M
-Hildo Rocha,M
-Hercílio Coelho Diniz,M
-Hugo Leal,M
-Hiran Gonçalves,M
-Hugo Motta,M
-Herculano Passos,M
-José Airton Félix Cirilo,M
-Giovani Feltes,M
-Giovani Cherini,M
-Giacobo,M
-Gilson Marques,M
-Kim Kataguiri,M
-Gil Cutrim,M
-Gilberto Nascimento,M
-Gilberto Abramo,M
-Professor Joziel,M
-Professor Israel Batista,M
-Ricardo da Karol,M
-Pedro Augusto Bezerra,M
-Ricardo Barros,M
-Ricardo Izar,M
-Ricardo Guidi,M
-Paulo Vicente Caleffi,M
-Paulo Teixeira,M
-Renildo Calheiros,M
-Paulo Ramos,M
-Paulo Marinho Jr,M
-Paulo Magalhães,M
-Paulo Pimenta,M
-Paulo Ganime,M
-Paulo Freire Costa,M
-Paulo Guedes,M
-Paulo Foletto,M
-Paulo Eduardo Martins,M
-Paulo Bengtson,M
-Paulo Azi,M
-Paulo Abi-Ackel,M
-Patrus Ananias,M
-Paulão,M
-Paulinho da Força,M
-Patrick Dorneles,M
-Pastor Sargento Isidório,M
-Pr. Marco Feliciano,M
-Pastor Eurico,M
-Pastor Gil,M
-Paes Landim,M
-Reginaldo Lopes,M
-Reinhold Stephanes Junior,M
-Padre João,M
-Raul Henry,M
-Rafafá,M
-Raimundo Costa,M
-Rafael Motta,M
-Márcio Labre,M
-Márcio Jerry,M
-Marcio Alvino,M
-Márcio Biolchi,M
-Marcelo Squassoni,M
-Marcelo Nilo,M
-Marcelo Ramos,M
-Marcelo Moraes,M
-Marcelo Freixo,M
-Marcelo Brum,M
-Marcelo Calero,M
-Otto Alencar Filho,M
-Ottaci Nascimento,M
-Otavio Leite,M
-Ossesio Silva,M
-Otoni de Paula,M
-Osmar Terra,M
-Osmar Serraglio,M
-Osires Damaso,M
-Orlando Silva,M
-Onyx Lorenzoni,M
-Olival Marques,M
-Odorico Monteiro,M
-Nelho Bezerra,M
-Misael Varella,M
-Milton Coelho,M
-Moses Rodrigues,M
-Miguel Lombardi,M
-Miguel Haddad,M
-Merlong Solano,M
-Milton Vieira,M
-Mauro Nazif,M
-Mauro Benevides Filho,M
-Mauro Lopes,M
-Maurício Dziedricki,M
-Marx Beltrão,M
-Marreca Filho,M
-Marlon Santos,M
-Mário Negromonte Jr.,M
-Mário Heringer,M
-Pompeo de Mattos,M
-Professor Alcides,M
-Pedro Westphalen,M
-Pinheirinho,M
-Pedro Vilela,M
-Pedro Uczai,M
-Pedro Paulo,M
-Pedro Dalua,M
-Marcelo Álvaro Antônio,M
-Marcelo Aro,M
-Pedro Lucas Fernandes,M
-Pedro Augusto Palareti,M
-Pedro Cunha Lima,M
-Pedro Lupion,M
-Marcel van Hattem,M
-Marcão Gomes,M
-Luizão Goulart,M
-Manuel Marcos,M
-Luiz Nishimori,M
-Luiz Lauro Filho,M
-Luiz Philippe de Orleans e Bragança,M
-Major Vitor Hugo,M
-Luiz Lima,M
-Luiz Flávio Gomes,M
-Luiz Carlos Motta,M
-Nilson F. Stainsack,M
-Nilson Pinto,M
-Odair Cunha,M
-Luiz Carlos,M
-Nilto Tatto,M
-Nivaldo Albuquerque,M
-Ney Leprevost,M
-Nicoletti,M
-Neucimar Fraga,M
-Newton Cardoso Jr,M
-Neri Geller,M
-Nereu Crispim,M
-Nelson Barbudo,M
-Nelson Pellegrino,M
-Marcos Soares,M
-Marcos Pereira,M
-Marcos Aurélio Sampaio,M
-Marco Brasil,M
-Marcon,M
-Marco Bertaiolli,M
-Márcio Macêdo,M
-Márcio Marinho,M
-Luiz Antônio Corrêa,M
-Luis Tibé,M
-Luis Miranda,M
-Luciano Bivar,M
-Luciano Ducci,M
-Lucio Mosquini,M
-Lucas Redecker,M
-Lucas Vergilio,M
-Lucas Gonzalez,M
-Lucas Follador,M
-Lourival Gomes,M
-Leur Lomanto Júnior,M
-Loester Trutis,M
-Lincoln Portela,M
-Leonardo Picciani,M
-Leônidas Cristino,M
-Leonardo Monteiro,M
-Leonardo Gadelha,M
-Léo Motta,M
-Léo Moraes,M
-Laerte Bessa,M
-Lázaro Botelho,M
-Laercio Oliveira,M
-Lafayette de Andrada,M
-Leo de Brito,M
-Juscelino Filho,M
-Júnior Mano,M
-Juninho do Pneu,M
-Júnior Ferrari,M
-Julio Lopes,M
-Junior Lourenço,M
-Júlio Delgado,M
-Junio Amaral,M
-Julian Lemos,M
-Josias Gomes,M
-Josimar Maranhãozinho,M
-Joseildo Ramos,M
-Júlio Cesar,M
-Josivaldo JP,M
-Juarez Costa,M
-Julio Cesar Ribeiro,M
-José Rocha,M
-José Priante,M
-José Nelto,M
-José Ricardo,M
-José Nunes,M
-José Medeiros,M
-José Guimarães,M
-Geraldo Resende,M
-Gervásio Maia,M
-Jose Mario Schreiner,M
-Genecias Noronha,M
-Geninho Zuliani,M
-General Peternelli,M
-General Girão,M
-Gelson Azevedo,M
-Frei Anastacio Ribeiro,M
-Gastão Vieira,M
-Franco Cartafina,M
-Flávio Nogueira,M
-Francisco Jr.,M
-Flaviano Melo,M
-Filipe Barros,M
-Fred Costa,M
-Fernando Rodolfo,M
-Fernando Monteiro,M
-Fernando Coelho Filho,M
-Doutor Luizinho,M
-Domingos Neto,M
-Domingos Sávio,M
-Dimas Fabiano,M
-Diego Andrade,M
-Deuzinho Filho,M
-Denis Bezerra,M
-Diego Garcia,M
-Delegado Waldir,M
-Delegado Marcelo Freitas,M
-Delegado Antônio Furtado,M
-Delegado Pablo,M
-David Soares,M
-Delegado Éder Mauro,M
-David Miranda,M
-Darcísio Perondi,M
-Darci de Matos,M
-Danilo Forte,M
-Danrlei de Deus Hinterholz,M
-Danilo Cabral,M
-Daniel Trzeciak,M
-Daniel Silveira,M
-Daniel Coelho,M
-Daniel Freitas,M
-Daniel Almeida,M
-Carlos Jordy,M
-Carlos Sampaio,M
-Carlos Gomes,M
-Carlos Henrique Gaguim,M
-Carlos Chiodini,M
-Carlos Bezerra,M
-Capitão Wagner,M
-Capitão Fábio Abreu,M
-Capitão Derrite,M
-Capitão Augusto,M
-Capitão Alberto Neto,M
-Camilo Capiberibe,M
-Cacá Leão,M
-Bozzella,M
-Bosco Costa,M
-Bosco Saraiva,M
-Bohn Gass,M
-Boca Aberta,M
-Bira do Pindaré,M
-Bilac Pinto,M
-Bibo Nunes,M
-Beto Pereira,M
-Beto Faro,M
-Benes Leocádio,M
-Damião Feliciano,M
-Beto Rosado,M
-Dagoberto Nogueira,M
-Covatti Filho,M
-Coronel Tadeu,M
-Da Vitoria,M
-Cristiano Vale,M
-Coronel Chrisóstomo,M
-Coronel Armando,M
-Claudio Cajado,M
-Christino Aureo,M
-Chiquinho Brazão,M
-Chico D'Angelo,M
-Cleber Verde,M
-Charlles Evangelista,M
-Cezinha de Madureira,M
-Celso Sabino,M
-Celso Russomanno,M
-Charles Fernandes,M
-Celso Maldaner,M
-Célio Studart,M
-Célio Moura,M
-Cássio Andrade,M
-Carlos Zarattini,M
-Carlos Veras,M
-Fernando Borja,M
-Félix Mendonça Júnior,M
-Célio Silveira,M
-Felipe Francischini,M
-Felipe Carreras,M
-Felício Laterça,M
-Fausto Pinato,M
-Felipe Rigoni,M
-Fábio Trad,M
-Fabio Reis,M
-Fabio Schiochet,M
-Fábio Ramalho,M
-Fábio Mitidieri,M
-Fabiano Tolentino,M
-Fábio Faria,M
-Expedito Netto,M
-Roman,M
-Fábio Henrique,M
-Euclydes Pettersen,M
-Evair Vieira de Melo,M
-Eros Biondini,M
-Enéias Reis,M
-Enio Verri,M
-Enrico Misasi,M
-Emanuel Pinheiro Neto,M
-Jorge Braz,M
-Jorge Goetten,M
-Jorielson,M
-Jones Moura,M
-Emidinho Madeira,M
-Joceval Rodrigues,M
-Jorge Solla,M
-Joaquim Passarinho,M
-João Roma,M
-João Carlos Bacelar,M
-João Marcelo Souza,M
-João Maia,M
-João H. Campos,M
-João Campos,M
-João Daniel,M
-Jhonatan de Jesus,M
-Jesus Sérgio,M
-Ivan Valente,M
-Jefferson Campos,M
-Jerônimo Goergen,M
-Jhc,M
-Isnaldo Bulhões Jr.,M
-Igor Timo,M
-Idilvan Alencar,M
-Igor Kannário,M
-Elias Vaz,M
-Eleuses Paiva,M
-Eli Borges,M
-Elmar Nascimento,M
-Efraim Filho,M
-Eli Corrêa Filho,M
-Eduardo Cury,M
-Eduardo Costa,M
-Eduardo Bolsonaro,M
-Eduardo da Fonte,M
-Eduardo Bismarck,M
-Eduardo Braide,M
-Eduardo Barbosa,M
-Edmilson Rodrigues,M
-Edio Lopes,M
-Dr. Sinval Malheiros,M
-Edilázio Júnior,M
-Dr. Luiz Ovando,M
-Dr. Zacharias Calil,M
-Dr. João,M
-Dr. Leonardo,M
-Dr. Jaziel,M
-Dr. Gonçalo,M
-Dr. Frederico,M
-Baleia Rossi,M
-Dr. Agripino Magalhães,M
-Bacelar,M
-Augusto Coutinho,M
-Aureo Ribeiro,M
-Átila Lins,M
-Arthur Lira,M
-Átila Lira,M
-Assis Carvalho,M
-Arthur Oliveira Maia,M
-Aroldo Martins,M
-Arnaldo Jardim,M
-Antonio Brito,M
-Arlindo Chinaglia,M
-André Janones,M
-Aníbal Gomes,M
-André Fufuca,M
-André Ferreira,M
-André Figueiredo,M
-Amaro Neto,M
-André de Paula,M
-André Abdon,M
-Altineu Côrtes,M
-Alexis Fonteyne,M
-Aluisio Mendes,M
-Aliel Machado,M
-Henrique do Paraíso,M
-Henrique Fontana,M
-Helio Lopes,M
-Hélio Leite,M
-Helder Salomão,M
-Heitor Schuch,M
-Hélio Costa,M
-Heitor Freire,M
-Haroldo Cathedral,M
-Gustavo Fruet,M
-Gutemberg Reis,M
-Gonzaga Patriota,M
-Gurgel,M
-Guilherme Mussi,M
-Guiga Peixoto,M
-Gustinho Ribeiro,M
-Glaustin da Fokus,M
-Alexandre Padilha,M
-Alexandre Serfiotis,M
-Alexandre Leite,M
-Alexandre Figueiredo,M
-Alexandre Frota,M
-Alex Santana,M
-Alex Manente,M
-Alessandro Molon,M
-Alencar Santana,M
-AJ Albuquerque,M
-Alcides Rodrigues,M
-Alceu Moreira,M
-Afonso Motta,M
-Airton Faleiro,M
-Alan Rick,M
-Afonso Hamm,M
-Afonso Florence,M
-Aelton Freitas,M
-Aécio Neves,M
-Adriano do Baldy,M
-Adolfo Viana,M
-Acácio Favacho,M
-Abou Anni,M
-Abílio Santana,M
-RRenato Queiroz,M
-Rossoni,M
-Rogério Peninha Mendonça,M
-Ronaldo Martins,M
-Ronaldo Carletto,M
-Rubens Bueno,M
-Rubens Pereira Júnior,M
-Rubens Otoni,M
-Rodrigo Maia,M
-Rogério Correia,M
-Rodrigo de Castro,M
-Rodrigo Coelho,M
-Rodrigo Agostinho,M
-Roberto Pessoa,M
-Roberto de Lucena,M
-Sandro Alex,M
-Soraya Santos,F
-Tereza Nelma,F
-Vivi Reis,F
-Tia Eron,F
-Tabata Amaral,F
-Talíria Petrone,F
-Tereza Cristina,F
-Silvia Cristina,F
-Rosangela Gomes,F
-Shéridan,F
-Rose Modesto,F
-Sâmia Bomfim,F
-Rosana Valle,F
-Renata Abreu,F
-Rejane Dias,F
-Rachel Marques,F
-Professora Marcivania,F
-Professora Rosa Neide,F
-Professora Dayane Pimentel,F
-Policial Katia Sastre,F
-Professora Dorinha Seabra Rezende,F
-Perpétua Almeida,F
-Paula Belmonte,F
-Patricia Ferraz,F
-Norma Pereira,F
-Norma Ayub,F
-Natália Bonavides,F
-Maria Rosas,F
-Maria do Rosário,F
-Mariana Carvalho,F
-Marina Santos,F
-Marília Arraes,F
-Magda Mofatto,F
-Luizianne Lins,F
-Margarete Coelho,F
-Luiza Erundina,F
-Margarida Salomão,F
-Mara Rocha,F
-Edna Henrique,F
-Major Fabiana,F
-Dulce Miranda,F
-Dra. Vanda Milani,F
-Daniela do Waguinho,F
-Clarissa Garotinho,F
-Dra. Soraya Manato,F
-Chris Tonietto,F
-Christiane de Souza Yared,F
-Celina Leão,F
-Caroline de Toni,F
-Carmen Zanotto,F
-Bruna Furlan,F
-Bia Kicis,F
-Carla Dickson,F
-Bia Cavassa,F
-Benedita da Silva,F
-Carla Zambelli,F
-Antônia Lúcia,F
-Áurea Carolina,F
-Aline Sleutjes,F
-Angela Amin,F
-Alê Silva,F
-Alice Portugal,F
-Aline Gurgel,F
-Adriana Ventura,F
-Luisa Canziani,F
-Liziane Bayer,F
-Leda Sadala,F
-Lídice da Mata,F
-Leandre,F
-Joice Hasselmann,F
-Laura Carneiro,F
-Lauriete,F
-Joenia Wapichana,F
-Jéssica Sales,F
-Jaqueline Cassol,F
-Jandira Feghali,F
-Gorete Pereira,F
-Iracema Portella,F
-Greyce Elias,F
-Gleisi Hoffmann,F
-Geovania de Sá,F
-Flordelis,F
-Flávia Arruda,F
-Erika Kokay,F
-Flávia Morais,F
-Ely Santos,F
-Eliza Virgínia,F
-Fernanda Melchionna,F
-Elcione Barbalho,F
-Zeca Dirceu,M
-Zé Silva,M
-Zé Vitor,M
-Zé Neto,M
-Zé Augusto Nalin,M
-Wladimir Garotinho,M
-Zé Carlos,M
-Wilson Santiago,M
-Wolney Queiroz,M
-Tiririca,M
-Tito,M
-Tiago Andrino,M
-Tiago Mitraud,M
-Tiago Dimas,M
-Ted Conti,M
-Tadeu Filippelli,M
-Tadeu Alencar,M
-Sóstenes Cavalcante,M
-Silvio Costa Filho,M
-Stefano Aguiar,M
-Silas Câmara,M
-Sidney Leite,M
-Simplício Araújo,M
-Subtenente Gonzaga,M
-Severino Pessoa,M
-Sergio Vidigal,M
-Sergio Toledo,M
-Sergio Souza,M
-Sérgio Brito,M
-Sebastião Oliveira,M
-Sargento Alexandre,M
-Schiavinato,M
-Sargento Fahur,M
-Santini,M
-Wellington Roberto,M
-Weliton Prado,M
-Walter Alves,M
-Waldenor Pereira,M
-Vinicius Gurgel,M
-Vitor Lippi,M
-Vinicius Poit,M
-Vinicius Farah,M
-Vinicius Carvalho,M
-Vilson da Fetaemg,M
-Victor Mendes,M
-Vicentinho Júnior,M
-Vicentinho,M
-Vavá Martins,M
-Vermelho,M
-Vanderlei Macris,M
-Vander Loubet,M
-Valmir Assunção,M
-Valdevan Noventa,M
-Valtenir Pereira,M
-Túlio Gadêlha,M
-Uldurico Junior,M
-Totonho Lopes,M
-Vaidon Oliveira,M
-Samuel Moreira,M
-Toninho Wandscheer,M
-Ruy Carneiro,M
-Sanderson,M
-Rui Falcão,M
-Roberto Alves,M
-Ricardo Teobaldo,M
-Robério Monteiro,M
-Ricardo Silva,M
-Ricardo Pericar,M
+nome,genero,data_nascimento
+Fernando Coelho Filho,M,28/02/1984
+Fred Costa,M,12/07/1977
+Fernando Monteiro,M,17/09/1976
+Franco Cartafina,M,03/11/1986
+Filipe Barros,M,29/05/1991
+Flaviano Melo,M,17/11/1949
+Flávio Nogueira,M,27/02/1953
+Francisco Jr.,M,15/03/1969
+Fernando Rodolfo,M,17/11/1983
+Gervásio Maia,M,14/04/1975
+Frei Anastacio Ribeiro,M,03/03/1944
+Gelson Azevedo,M,10/01/1965
+Genecias Noronha,M,13/03/1963
+General Girão,M,08/05/1955
+General Peternelli,M,06/08/1954
+Giacobo,M,17/12/1970
+Geninho Zuliani,M,13/01/1976
+Gilson Marques,M,12/04/1981
+Giovani Feltes,M,10/04/1957
+Gil Cutrim,M,26/10/1979
+Gilberto Abramo,M,06/08/1966
+Gilberto Nascimento,M,09/07/1956
+Giovani Cherini,M,23/06/1960
+Daniel Almeida,M,21/01/1955
+Daniel Coelho,M,04/11/1978
+Daniel Freitas,M,03/04/1982
+Danilo Forte,M,01/09/1958
+Daniel Trzeciak,M,04/11/1986
+Danrlei de Deus Hinterholz,M,18/04/1973
+Daniel Silveira,M,25/11/1982
+David Miranda,M,10/05/1985
+Danilo Cabral,M,21/04/1967
+Delegado Marcelo Freitas,M,04/03/1976
+Darci de Matos,M,08/11/1961
+David Soares,M,21/12/1973
+Delegado Pablo,M,26/07/1976
+Delegado Waldir,M,28/11/1962
+Delegado Antônio Furtado,M,06/01/1972
+Delegado Éder Mauro,M,14/12/1960
+Dimas Fabiano,M,23/05/1973
+Denis Bezerra,M,17/03/1980
+Doutor Luizinho,M,15/12/1973
+Diego Andrade,M,08/08/1977
+Diego Garcia,M,10/10/1984
+Dr. Jaziel,M,03/05/1961
+Domingos Neto,M,29/04/1988
+Domingos Sávio,M,25/03/1957
+Dr. Frederico,M,24/03/1977
+Dr. Leonardo,M,14/06/1978
+Dr. Zacharias Calil,M,05/11/1953
+Dr. Luiz Ovando,M,25/09/1949
+Eduardo Bolsonaro,M,10/07/1984
+Edio Lopes,M,04/01/1952
+Eduardo Barbosa,M,25/08/1958
+Edilázio Júnior,M,04/05/1981
+Eduardo Bismarck,M,14/11/1981
+Eduardo Costa,M,16/02/1968
+Eduardo da Fonte,M,17/10/1972
+Efraim Filho,M,18/03/1979
+Eli Borges,M,01/09/1960
+Eduardo Cury,M,19/09/1963
+Elmar Nascimento,M,06/07/1970
+Elias Vaz,M,04/07/1966
+Emidinho Madeira,M,10/03/1967
+Eli Corrêa Filho,M,13/01/1976
+Emanuel Pinheiro Neto,M,05/01/1995
+Enio Verri,M,27/03/1961
+Euclydes Pettersen,M,15/08/1984
+Enrico Misasi,M,06/08/1994
+Eros Biondini,M,20/05/1971
+Fábio Ramalho,M,22/12/1961
+Fábio Mitidieri,M,24/02/1977
+Expedito Netto,M,05/10/1988
+Evair Vieira de Melo,M,02/04/1972
+Fabio Schiochet,M,31/05/1988
+Fábio Henrique,M,19/06/1972
+Fabio Reis,M,15/04/1977
+Felício Laterça,M,26/05/1967
+Fábio Trad,M,18/08/1969
+Fausto Pinato,M,01/06/1977
+Félix Mendonça Júnior,M,29/11/1963
+Cássio Andrade,M,12/09/1981
+Carlos Veras,M,10/08/1981
+Felipe Carreras,M,16/04/1975
+Felipe Rigoni,M,13/06/1991
+Felipe Francischini,M,02/10/1991
+Célio Moura,M,13/08/1953
+Carlos Zarattini,M,08/06/1959
+Célio Studart,M,19/06/1987
+Celso Russomanno,M,20/08/1956
+Cezinha de Madureira,M,12/12/1973
+Charles Fernandes,M,15/03/1965
+Charlles Evangelista,M,27/12/1984
+Célio Silveira,M,19/09/1959
+Celso Maldaner,M,30/08/1953
+Celso Sabino,M,29/08/1978
+Chico D'Angelo,M,11/02/1953
+Christino Aureo,M,26/04/1962
+Claudio Cajado,M,01/12/1963
+Cleber Verde,M,10/05/1972
+Coronel Armando,M,23/06/1957
+Coronel Chrisóstomo,M,23/06/1959
+Chiquinho Brazão,M,22/02/1962
+Covatti Filho,M,25/07/1987
+Coronel Tadeu,M,30/09/1965
+Da Vitoria,M,02/06/1971
+Dagoberto Nogueira,M,21/07/1955
+Glauber Braga,M,26/06/1982
+Glaustin da Fokus,M,22/12/1973
+Cristiano Vale,M,10/04/1970
+Damião Feliciano,M,28/04/1952
+Gonzaga Patriota,M,26/04/1946
+Gustinho Ribeiro,M,16/02/1982
+Gurgel,M,02/12/1980
+Guiga Peixoto,M,13/11/1961
+Guilherme Mussi,M,14/10/1982
+Haroldo Cathedral,M,11/05/1953
+Gustavo Fruet,M,18/04/1963
+Heitor Freire,M,08/10/1981
+Gutemberg Reis,M,09/09/1979
+Helder Salomão,M,08/03/1964
+Helio Lopes,M,28/03/1969
+Hélio Leite,M,09/12/1957
+Henrique Fontana,M,18/01/1960
+Hercílio Coelho Diniz,M,14/09/1963
+Heitor Schuch,M,25/03/1962
+Hélio Costa,M,03/03/1954
+Hildo Rocha,M,22/04/1960
+Hermes Parcianello,M,25/04/1958
+Hiran Gonçalves,M,19/06/1957
+Hugo Leal,M,06/08/1962
+Herculano Passos,M,04/08/1956
+Benes Leocádio,M,22/04/1966
+Beto Faro,M,20/06/1969
+Hugo Motta,M,11/09/1989
+Beto Pereira,M,14/11/1977
+Bilac Pinto,M,08/06/1963
+Bira do Pindaré,M,01/11/1968
+Bohn Gass,M,05/02/1962
+Bosco Saraiva,M,10/10/1959
+Beto Rosado,M,01/02/1982
+Bibo Nunes,M,09/01/1957
+Bozzella,M,17/08/1980
+Cacá Leão,M,03/11/1979
+Camilo Capiberibe,M,23/05/1972
+Bosco Costa,M,28/09/1950
+Capitão Alberto Neto,M,05/05/1982
+Capitão Augusto,M,04/10/1966
+Capitão Fábio Abreu,M,31/12/1972
+Capitão Derrite,M,10/10/1984
+Capitão Wagner,M,21/01/1979
+Carlos Bezerra,M,04/11/1941
+Carlos Gomes,M,13/06/1972
+Carlos Chiodini,M,08/03/1982
+Carlos Jordy,M,08/02/1982
+Jose Mario Schreiner,M,08/02/1961
+Carlos Sampaio,M,31/03/1963
+José Guimarães,M,13/02/1957
+Carlos Henrique Gaguim,M,21/04/1961
+José Nelto,M,19/09/1960
+José Medeiros,M,19/03/1970
+José Nunes,M,18/12/1950
+José Ricardo,M,23/06/1964
+José Priante,M,02/12/1963
+Joseildo Ramos,M,23/08/1957
+José Rocha,M,18/08/1948
+Josias Gomes,M,14/10/1956
+Josimar Maranhãozinho,M,13/11/1976
+Josivaldo JP,M,29/11/1983
+Juarez Costa,M,20/01/1960
+Julian Lemos,M,05/01/1976
+Júlio Delgado,M,18/11/1966
+Júlio Cesar,M,25/08/1948
+Julio Cesar Ribeiro,M,24/02/1975
+Juninho do Pneu,M,23/10/1976
+Junio Amaral,M,30/06/1987
+Júnior Ferrari,M,13/07/1967
+Júnior Mano,M,16/04/1985
+Juscelino Filho,M,06/11/1984
+Laercio Oliveira,M,15/04/1959
+Kim Kataguiri,M,28/01/1996
+Leo de Brito,M,13/04/1979
+Lafayette de Andrada,M,17/10/1966
+Léo Moraes,M,11/01/1984
+Léo Motta,M,26/10/1973
+Leônidas Cristino,M,03/06/1957
+Leur Lomanto Júnior,M,28/10/1976
+Junior Lourenço,M,18/10/1978
+Loester Trutis,M,21/09/1982
+Leonardo Monteiro,M,09/10/1951
+Lucas Gonzalez,M,21/12/1988
+Lourival Gomes,M,22/07/1955
+Lucas Redecker,M,26/05/1981
+Lincoln Portela,M,03/11/1953
+Lucas Vergilio,M,08/04/1987
+Luciano Bivar,M,29/11/1944
+Luciano Ducci,M,23/03/1955
+Luiz Antônio Corrêa,M,27/12/1940
+Lucio Mosquini,M,23/07/1969
+Luis Miranda,M,27/03/1980
+Luis Tibé,M,23/07/1971
+Márcio Macêdo,M,18/09/1970
+Marco Bertaiolli,M,30/04/1968
+Márcio Marinho,M,12/12/1970
+Marcon,M,21/09/1964
+Marlon Santos,M,25/09/1975
+Marcos Aurélio Sampaio,M,19/09/1991
+Mário Negromonte Jr.,M,31/08/1980
+Mário Heringer,M,30/09/1954
+Marcos Pereira,M,04/04/1972
+Marx Beltrão,M,28/11/1979
+Marreca Filho,M,25/04/1992
+Maurício Dziedricki,M,26/07/1979
+Merlong Solano,M,17/09/1958
+Mauro Lopes,M,24/05/1936
+Miguel Lombardi,M,29/01/1964
+Milton Coelho,M,21/12/1964
+Mauro Benevides Filho,M,09/03/1959
+Misael Varella,M,27/11/1959
+Mauro Nazif,M,30/01/1959
+Nelson Barbudo,M,14/02/1960
+Neucimar Fraga,M,26/06/1966
+Nereu Crispim,M,21/07/1963
+Newton Cardoso Jr,M,11/11/1979
+Neri Geller,M,07/11/1968
+Milton Vieira,M,16/09/1962
+Ney Leprevost,M,26/10/1973
+Nicoletti,M,21/07/1981
+Nilto Tatto,M,31/07/1963
+Nilson Pinto,M,25/03/1952
+Onyx Lorenzoni,M,03/10/1954
+Odair Cunha,M,18/06/1976
+Olival Marques,M,09/01/1982
+Orlando Silva,M,27/05/1971
+Osires Damaso,M,16/04/1963
+Nivaldo Albuquerque,M,07/01/1988
+Osmar Serraglio,M,23/05/1948
+Osmar Terra,M,18/02/1950
+Otoni de Paula,M,22/11/1976
+Ottaci Nascimento,M,18/08/1977
+Otto Alencar Filho,M,07/07/1977
+Ossesio Silva,M,09/12/1954
+Luiz Carlos,M,16/08/1979
+Luiz Carlos Motta,M,24/04/1959
+Luiz Lima,M,10/12/1977
+Luiz Nishimori,M,09/04/1949
+Luiz Philippe de Orleans e Bragança,M,03/04/1969
+Luizão Goulart,M,06/06/1962
+Marcel van Hattem,M,08/11/1985
+Major Vitor Hugo,M,31/05/1977
+Marcelo Álvaro Antônio,M,16/02/1974
+Marcelo Aro,M,12/06/1987
+Marcelo Freixo,M,12/04/1967
+Marcelo Calero,M,07/07/1982
+Marcelo Moraes,M,07/08/1979
+Marcelo Nilo,M,26/04/1955
+Marcio Alvino,M,14/06/1969
+Marcelo Ramos,M,29/08/1973
+Márcio Jerry,M,14/11/1966
+Márcio Biolchi,M,23/05/1979
+Márcio Labre,M,27/02/1974
+Pedro Augusto Palareti,M,08/05/1963
+Pedro Cunha Lima,M,15/08/1988
+Pedro Lupion,M,04/06/1983
+Pedro Lucas Fernandes,M,01/11/1979
+Pedro Paulo,M,29/06/1972
+Pedro Uczai,M,10/03/1963
+Pedro Westphalen,M,19/12/1950
+Pedro Vilela,M,01/05/1985
+Pinheirinho,M,30/05/1991
+Pompeo de Mattos,M,12/07/1958
+Professor Alcides,M,25/10/1953
+Professor Joziel,M,22/04/1966
+Rafael Motta,M,15/08/1986
+Professor Israel Batista,M,02/05/1982
+Raimundo Costa,M,09/03/1961
+Reginaldo Lopes,M,02/04/1973
+Raul Henry,M,06/06/1964
+Renildo Calheiros,M,20/04/1959
+Ricardo Barros,M,15/11/1959
+Ricardo da Karol,M,27/10/1959
+Ricardo Guidi,M,28/09/1977
+Padre João,M,28/02/1967
+Ricardo Izar,M,01/08/1968
+Pastor Eurico,M,12/09/1962
+Pr. Marco Feliciano,M,12/10/1972
+Pastor Gil,M,08/11/1971
+Pastor Sargento Isidório,M,28/07/1962
+Patrus Ananias,M,26/01/1952
+Paulão,M,15/09/1957
+Paulinho da Força,M,24/02/1956
+Paulo Abi-Ackel,M,21/06/1963
+Paulo Foletto,M,30/04/1956
+Paulo Azi,M,14/01/1963
+Paulo Freire Costa,M,14/02/1955
+Paulo Bengtson,M,06/01/1974
+Paulo Ganime,M,19/04/1983
+Paulo Eduardo Martins,M,20/04/1981
+Paulo Guedes,M,01/10/1970
+Paulo Pimenta,M,19/03/1965
+Paulo Ramos,M,18/10/1944
+Ricardo Teobaldo,M,18/10/1965
+Ricardo Silva,M,01/09/1985
+Robério Monteiro,M,15/02/1970
+Pedro Augusto Bezerra,M,11/10/1980
+Paulo Teixeira,M,06/05/1961
+Roberto Alves,M,27/05/1960
+Roberto de Lucena,M,18/04/1966
+Rodrigo Agostinho,M,12/12/1977
+Rodrigo Coelho,M,29/06/1980
+Rodrigo Maia,M,12/06/1970
+Rodrigo de Castro,M,15/07/1971
+Rogério Correia,M,11/01/1958
+Ronaldo Carletto,M,05/01/1960
+Rogério Peninha Mendonça,M,27/01/1953
+Ronaldo Martins,M,21/01/1978
+Rossoni,M,23/11/1952
+Rubens Otoni,M,06/02/1956
+Rubens Bueno,M,23/05/1948
+Rubens Pereira Júnior,M,18/03/1984
+Rui Falcão,M,26/11/1943
+Samuel Moreira,M,09/02/1963
+Sanderson,M,01/12/1969
+Sandro Alex,M,25/11/1972
+Zé Carlos,M,26/05/1955
+Ruy Carneiro,M,17/08/1970
+Wolney Queiroz,M,12/12/1972
+Wilson Santiago,M,10/06/1957
+Zé Neto,M,30/03/1964
+Zé Silva,M,11/05/1963
+Zé Vitor,M,01/11/1984
+Zeca Dirceu,M,21/06/1978
+Sebastião Oliveira,M,31/08/1968
+Sargento Fahur,M,06/11/1963
+Sérgio Brito,M,08/06/1961
+Severino Pessoa,M,06/02/1970
+Sergio Toledo,M,29/01/1962
+Sergio Souza,M,13/03/1971
+Sidney Leite,M,08/04/1967
+Silas Câmara,M,15/12/1962
+Silvio Costa Filho,M,05/03/1982
+Sóstenes Cavalcante,M,16/01/1975
+Stefano Aguiar,M,03/03/1976
+Tadeu Alencar,M,08/04/1963
+Tiago Dimas,M,04/08/1988
+Tiririca,M,01/05/1965
+Tiago Mitraud,M,15/08/1986
+Tito,M,17/11/1976
+Toninho Wandscheer,M,31/08/1950
+Subtenente Gonzaga,M,31/05/1962
+Túlio Gadêlha,M,12/11/1987
+Vaidon Oliveira,M,02/04/1975
+Uldurico Junior,M,30/01/1992
+Valmir Assunção,M,17/12/1964
+Vander Loubet,M,22/01/1964
+Vanderlei Macris,M,20/05/1950
+Vavá Martins,M,03/06/1982
+Vermelho,M,01/03/1959
+Vicentinho,M,08/04/1956
+Vicentinho Júnior,M,11/04/1985
+Vilson da Fetaemg,M,01/05/1957
+Vinicius Carvalho,M,07/01/1966
+Vinicius Farah,M,21/06/1965
+Vinicius Poit,M,31/01/1986
+Vitor Lippi,M,18/05/1959
+Waldenor Pereira,M,08/03/1954
+Walter Alves,M,27/02/1980
+Adriana Ventura,F,06/03/1969
+Alê Silva,F,04/07/1974
+Aline Sleutjes,F,26/07/1979
+Alice Portugal,F,16/05/1959
+Aline Gurgel,F,25/11/1980
+Angela Amin,F,20/12/1953
+Wellington Roberto,M,19/05/1959
+Weliton Prado,M,24/08/1975
+Áurea Carolina,F,20/11/1983
+Benedita da Silva,F,26/04/1942
+Bruna Furlan,F,28/04/1983
+Bia Kicis,F,19/09/1961
+Carla Dickson,F,02/07/1976
+Carla Zambelli,F,03/07/1980
+Carmen Zanotto,F,06/10/1962
+Caroline de Toni,F,01/09/1986
+Chris Tonietto,F,14/05/1991
+Clarissa Garotinho,F,02/07/1982
+Daniela do Waguinho,F,10/02/1976
+Celina Leão,F,02/03/1977
+Dra. Soraya Manato,F,10/03/1961
+Dra. Vanda Milani,F,17/09/1953
+Dulce Miranda,F,15/12/1963
+Christiane de Souza Yared,F,23/02/1960
+Edna Henrique,F,04/09/1958
+Renata Abreu,F,15/04/1982
+Rosana Valle,F,08/05/1969
+Rosangela Gomes,F,27/12/1966
+Rose Modesto,F,20/02/1978
+Sâmia Bomfim,F,22/08/1989
+Shéridan,F,11/04/1984
+Silvia Cristina,F,15/01/1974
+Soraya Santos,F,04/12/1958
+Tabata Amaral,F,14/11/1993
+Talíria Petrone,F,09/04/1985
+Tereza Cristina,F,06/07/1954
+Tereza Nelma,F,07/10/1957
+Vivi Reis,F,05/08/1991
+Luiza Erundina,F,30/11/1934
+Luizianne Lins,F,18/11/1968
+Magda Mofatto,F,26/10/1948
+Major Fabiana,F,09/01/1980
+Mara Rocha,F,04/09/1973
+Margarete Coelho,F,12/03/1961
+Maria do Rosário,F,22/11/1966
+Marília Arraes,F,12/04/1984
+Maria Rosas,F,01/10/1965
+Mariana Carvalho,F,26/11/1986
+Marina Santos,F,13/09/1980
+Natália Bonavides,F,15/06/1988
+Norma Ayub,F,07/09/1959
+Patricia Ferraz,F,09/01/1980
+Paula Belmonte,F,23/06/1973
+Perpétua Almeida,F,28/12/1964
+Professora Dayane Pimentel,F,30/01/1986
+Professora Dorinha Seabra Rezende,F,01/10/1964
+Policial Katia Sastre,F,04/04/1976
+Professora Marcivania,F,21/06/1973
+Professora Rosa Neide,F,08/08/1963
+Rejane Dias,F,04/09/1972
+Elcione Barbalho,F,05/10/1944
+Fernanda Melchionna,F,02/02/1984
+Erika Kokay,F,15/08/1957
+Flávia Arruda,F,21/01/1980
+Flávia Morais,F,26/04/1969
+Geovania de Sá,F,30/03/1972
+Gleisi Hoffmann,F,06/09/1965
+Greyce Elias,F,15/12/1981
+Iracema Portella,F,23/04/1966
+Jaqueline Cassol,F,03/12/1974
+Jandira Feghali,F,17/05/1957
+Joenia Wapichana,F,20/04/1973
+Jéssica Sales,F,28/11/1980
+Joice Hasselmann,F,29/01/1978
+Lauriete,F,23/02/1970
+Leandre,F,20/12/1975
+Leda Sadala,F,11/06/1966
+Lídice da Mata,F,12/03/1956
+Liziane Bayer,F,24/01/1981
+Luisa Canziani,F,11/04/1996

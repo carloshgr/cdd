@@ -1,43 +1,48 @@
 import scrapy
+import os
 
 class DeputadosSpider(scrapy.Spider):
     name = 'deputados'
 
     def start_requests(self):
-        deputados_pages = ['https://www.camara.leg.br/deputados/quem-sao/resultado?search=&partido=&uf=&legislatura=56&sexo=M&pagina='+str(i) for i in range(1, 22)]
-        deputadas_pages = ['https://www.camara.leg.br/deputados/quem-sao/resultado?search=&partido=&uf=&legislatura=56&sexo=F&pagina='+str(i) for i in range(1, 5)]
+        script_dir = os.path.dirname(__file__)
+        rel_path_deputados = '../../deputados.txt'
+        rel_path_deputadas = '../../deputadas.txt'
+
+        with open(os.path.join(script_dir, rel_path_deputados)) as f:
+            deputados = f.read().splitlines()
+
+        with open(os.path.join(script_dir, rel_path_deputadas)) as f:
+            deputadas = f.read().splitlines()
         
-        for page in deputados_pages:
-            yield scrapy.Request(url=page, callback=self.request_deputados)
-
-        for page in deputadas_pages:
-            yield scrapy.Request(url=page, callback=self.request_deputadas)
-
-
-    def request_deputados(self, response):
-        for tag in response.xpath('//h3[@class="lista-resultados__cabecalho"]/a/@href'):
-            yield scrapy.Request(url=tag.get(), callback=self.parse_deputado)
-
-
-    def request_deputadas(self, response):
-        for tag in response.xpath('//h3[@class="lista-resultados__cabecalho"]/a/@href'):
-            yield scrapy.Request(url=tag.get(), callback=self.parse_deputada)
-
-
-    def get_nome(self, response):
-        tag_nome = response.xpath('//h2[@id="nomedeputado"]//text()')
-        return tag_nome.get()
+        for deputado in deputados:
+            yield scrapy.Request(url=deputado, callback=self.parse_deputado)
+        
+        for deputada in deputadas:
+            yield scrapy.Request(url=deputada, callback=self.parse_deputada)
 
 
     def parse_deputado(self, response):
         yield {
             'nome': self.get_nome(response),
-            'genero': 'M'
+            'genero': 'M',
+            'data_nascimento': self.get_data_nascimento(response)
         }
 
 
     def parse_deputada(self, response):
         yield {
             'nome': self.get_nome(response),
-            'genero': 'F'
+            'genero': 'F',
+            'data_nascimento': self.get_data_nascimento(response)
         }
+
+
+    def get_nome(self, response):
+        tag = response.xpath('//h2[@id="nomedeputado"]//text()')
+        return tag.get()
+
+
+    def get_data_nascimento(self, response):
+        tag = response.xpath('//ul[@class="informacoes-deputado"]/li[5]/text()')
+        return tag.get().strip()
