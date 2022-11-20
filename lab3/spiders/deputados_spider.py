@@ -26,7 +26,8 @@ class DeputadosSpider(scrapy.Spider):
         yield {
             'nome': self.get_nome(response),
             'genero': 'M',
-            'data_nascimento': self.get_data_nascimento(response)
+            'data_nascimento': self.get_data_nascimento(response),
+            'presenca_plenario': self.get_presenca_plenario(response)
         }
 
 
@@ -34,7 +35,8 @@ class DeputadosSpider(scrapy.Spider):
         yield {
             'nome': self.get_nome(response),
             'genero': 'F',
-            'data_nascimento': self.get_data_nascimento(response)
+            'data_nascimento': self.get_data_nascimento(response),
+            'presenca_plenario': self.get_presenca_plenario(response)
         }
 
 
@@ -46,3 +48,8 @@ class DeputadosSpider(scrapy.Spider):
     def get_data_nascimento(self, response):
         tag = response.xpath('//ul[@class="informacoes-deputado"]/li[5]/text()')
         return tag.get().strip()
+
+
+    def get_presenca_plenario(self, response):
+        tag = response.xpath('//dl[@class="list-table__definition-list"]/dd[1]/text()')
+        return tag.get().strip().split()[0]
