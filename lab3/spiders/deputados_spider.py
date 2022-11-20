@@ -32,7 +32,8 @@ class DeputadosSpider(scrapy.Spider):
             'ausencia_nao_justificada_plenario': self.get_ausencia_nao_justificada_plenario(response),
             'presenca_comissoes': self.get_presenca_comissoes(response),
             'ausencia_justificada_comissoes': self.get_ausencia_justificada_comissoes(response),
-            'ausencia_nao_justificada_comissoes': self.get_ausencia_nao_justificada_comissoes(response)
+            'ausencia_nao_justificada_comissoes': self.get_ausencia_nao_justificada_comissoes(response),
+            'salario_bruto_par': self.get_salario_bruto_par(response)
         }
 
 
@@ -46,7 +47,8 @@ class DeputadosSpider(scrapy.Spider):
             'ausencia_nao_justificada_plenario': self.get_ausencia_nao_justificada_plenario(response),
             'presenca_comissoes': self.get_presenca_comissoes(response),
             'ausencia_justificada_comissoes': self.get_ausencia_justificada_comissoes(response),
-            'ausencia_nao_justificada_comissoes': self.get_ausencia_nao_justificada_comissoes(response)
+            'ausencia_nao_justificada_comissoes': self.get_ausencia_nao_justificada_comissoes(response),
+            'salario_bruto_par': self.get_salario_bruto_par(response)
         }
 
 
@@ -89,3 +91,7 @@ class DeputadosSpider(scrapy.Spider):
         tag = response.xpath('//ul[@class="list-table__content"]/li[2]/dl/dd[3]/text()')
         return tag.get().strip().split()[0]
 
+
+    def get_salario_bruto_par(self, response):
+        tag = response.xpath('//ul[@class="recursos-beneficios-deputado-container"]/li[2]/div/a/text()')
+        return tag.get().split()[1].replace('.', '').replace(',', '.')
