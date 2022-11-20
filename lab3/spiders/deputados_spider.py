@@ -28,7 +28,11 @@ class DeputadosSpider(scrapy.Spider):
             'genero': 'M',
             'data_nascimento': self.get_data_nascimento(response),
             'presenca_plenario': self.get_presenca_plenario(response),
-            'ausencia_justificada_plenario': self.get_ausencia_justificada_plenario(response)
+            'ausencia_justificada_plenario': self.get_ausencia_justificada_plenario(response),
+            'ausencia_nao_justificada_plenario': self.get_ausencia_nao_justificada_plenario(response),
+            'presenca_comissoes': self.get_presenca_comissoes(response),
+            'ausencia_justificada_comissoes': self.get_ausencia_justificada_comissoes(response),
+            'ausencia_nao_justificada_comissoes': self.get_ausencia_nao_justificada_comissoes(response)
         }
 
 
@@ -38,7 +42,11 @@ class DeputadosSpider(scrapy.Spider):
             'genero': 'F',
             'data_nascimento': self.get_data_nascimento(response),
             'presenca_plenario': self.get_presenca_plenario(response),
-            'ausencia_justificada_plenario': self.get_ausencia_justificada_plenario(response)
+            'ausencia_justificada_plenario': self.get_ausencia_justificada_plenario(response),
+            'ausencia_nao_justificada_plenario': self.get_ausencia_nao_justificada_plenario(response),
+            'presenca_comissoes': self.get_presenca_comissoes(response),
+            'ausencia_justificada_comissoes': self.get_ausencia_justificada_comissoes(response),
+            'ausencia_nao_justificada_comissoes': self.get_ausencia_nao_justificada_comissoes(response)
         }
 
 
@@ -53,11 +61,31 @@ class DeputadosSpider(scrapy.Spider):
 
 
     def get_presenca_plenario(self, response):
-        tag = response.xpath('//dl[@class="list-table__definition-list"]/dd[1]/text()')
+        tag = response.xpath('//ul[@class="list-table__content"]/li[1]/dl/dd[1]/text()')
         return tag.get().strip().split()[0]
 
     
     def get_ausencia_justificada_plenario(self, response):
-        tag = response.xpath('//dl[@class="list-table__definition-list"]/dd[2]/text()')
+        tag = response.xpath('//ul[@class="list-table__content"]/li[1]/dl/dd[2]/text()')
+        return tag.get().strip().split()[0]
+
+    
+    def get_ausencia_nao_justificada_plenario(self, response):
+        tag = response.xpath('//ul[@class="list-table__content"]/li[1]/dl/dd[3]/text()')
+        return tag.get().strip().split()[0]
+
+
+    def get_presenca_comissoes(self, response):
+        tag = response.xpath('//ul[@class="list-table__content"]/li[2]/dl/dd[1]/text()')
+        return tag.get().strip().split()[0]
+
+    
+    def get_ausencia_justificada_comissoes(self, response):
+        tag = response.xpath('//ul[@class="list-table__content"]/li[2]/dl/dd[2]/text()')
+        return tag.get().strip().split()[0]
+
+    
+    def get_ausencia_nao_justificada_comissoes(self, response):
+        tag = response.xpath('//ul[@class="list-table__content"]/li[2]/dl/dd[3]/text()')
         return tag.get().strip().split()[0]
 
