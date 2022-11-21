@@ -34,6 +34,19 @@ class DeputadosSpider(scrapy.Spider):
             'ausencia_justificada_comissoes': self.get_ausencia_justificada_comissoes(response),
             'ausencia_nao_justificada_comissoes': self.get_ausencia_nao_justificada_comissoes(response),
             'salario_bruto_par': self.get_salario_bruto_par(response),
+            'get_gasto_total_par': self.get_gasto_total_par(response),
+            'get_gasto_janeiro_par': self.get_gasto_mes_par(response, 'JAN'),
+            'get_gasto_fevereiro_par': self.get_gasto_mes_par(response, 'FEV'),
+            'get_gasto_marco_par': self.get_gasto_mes_par(response, 'MAR'),
+            'get_gasto_abril_par': self.get_gasto_mes_par(response, 'ABR'),
+            'get_gasto_maio_par': self.get_gasto_mes_par(response, 'MAI'),
+            'get_gasto_junho_par': self.get_gasto_mes_par(response, 'JUN'),
+            'get_gasto_julho_par': self.get_gasto_mes_par(response, 'JUL'),
+            'get_gasto_agosto_par': self.get_gasto_mes_par(response, 'AGO'),
+            'get_gasto_setembro_par': self.get_gasto_mes_par(response, 'SET'),
+            'get_gasto_outubro_par': self.get_gasto_mes_par(response, 'OUT'),
+            'get_gasto_novembro_par': self.get_gasto_mes_par(response, 'NOV'),
+            'get_gasto_dezembro_par': self.get_gasto_mes_par(response, 'DEZ'),
             'quant_viagens': self.get_quant_viagens(response)
         }
 
@@ -50,6 +63,19 @@ class DeputadosSpider(scrapy.Spider):
             'ausencia_justificada_comissoes': self.get_ausencia_justificada_comissoes(response),
             'ausencia_nao_justificada_comissoes': self.get_ausencia_nao_justificada_comissoes(response),
             'salario_bruto_par': self.get_salario_bruto_par(response),
+            'get_gasto_total_par': self.get_gasto_total_par(response),
+            'get_gasto_janeiro_par': self.get_gasto_mes_par(response, 'JAN'),
+            'get_gasto_fevereiro_par': self.get_gasto_mes_par(response, 'FEV'),
+            'get_gasto_marco_par': self.get_gasto_mes_par(response, 'MAR'),
+            'get_gasto_abril_par': self.get_gasto_mes_par(response, 'ABR'),
+            'get_gasto_maio_par': self.get_gasto_mes_par(response, 'MAI'),
+            'get_gasto_junho_par': self.get_gasto_mes_par(response, 'JUN'),
+            'get_gasto_julho_par': self.get_gasto_mes_par(response, 'JUL'),
+            'get_gasto_agosto_par': self.get_gasto_mes_par(response, 'AGO'),
+            'get_gasto_setembro_par': self.get_gasto_mes_par(response, 'SET'),
+            'get_gasto_outubro_par': self.get_gasto_mes_par(response, 'OUT'),
+            'get_gasto_novembro_par': self.get_gasto_mes_par(response, 'NOV'),
+            'get_gasto_dezembro_par': self.get_gasto_mes_par(response, 'DEZ'),
             'quant_viagens': self.get_quant_viagens(response)
         }
 
@@ -97,6 +123,17 @@ class DeputadosSpider(scrapy.Spider):
     def get_salario_bruto_par(self, response):
         tag = response.xpath('//ul[@class="recursos-beneficios-deputado-container"]/li[2]/div/a/text()')
         return tag.get().split()[1].replace('.', '').replace(',', '.')
+
+
+    def get_gasto_total_par(self, response):
+        tag = response.xpath('//table[@id="percentualgastocotaparlamentar"]/tbody/tr/td[2]/text()')
+        return tag.get().replace('.', '').replace(',', '.')
+
+
+    def get_gasto_mes_par(self, response, mes):
+        tag = response.xpath(f'//tr[td="{mes}"][1]/td[2]/text()')
+        if tag.get() is None: return 'NaN'
+        return tag.get().replace('.', '').replace(',', '.')
 
 
     def get_quant_viagens(self, response):
